@@ -20,7 +20,10 @@ def load(file_name):
     return nn
 
 def build_nn_wmats(mat_dims):
-    # your code here
+    np.random.seed(1)
+    wmats_result = np.array([])
+    for i in mat_dims:
+        wmats_result = np.append(p, )
     pass
 
 ## Training 3-layer neural net.
